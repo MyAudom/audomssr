@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Menu */
+#menubox{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+a {
+    text-decoration: none;
+    margin-right: 30px;
+    color: blue;
+    font-family: arial;
+    color: #14396A !important;
+    font-size: 14px;
+    text-shadow: 1px 1px 0px #7CACDE;
+    box-shadow: 1px 1px 1px #000102;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 2px solid #3866A3;
+    background: #63B8EE;
+    background: linear-gradient(to top, #63B8EE, #468CCF);
+    box-shadow: 6px 9px 8px 0px rgba(128, 0, 0, 1);
+  }
+  a:hover {
+    color: #14396A !important;
+    background: #468CCF;
+    background: linear-gradient(to top, #468CCF, #63B8EE);
+  }
+  
+/* ស្តាយអក្សររត់ */
+@import url("https://fonts.googleapis.com/css2?family=Quando&display=swap");
+
+svg {
+	font-family: "Quando", sans-serif;
+	width: 100%; height: 100%;
+}
+svg text {
+	animation: stroke 5s infinite alternate;
+	stroke-width: 2;
+	stroke: #9000FF;
+	font-size: 50px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(144,0,255,0); stroke: rgba(144,0,255,1);
+		stroke-dashoffset: 0%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(144,0,255,0); stroke: rgba(144,0,255,1); }
+	80%  {fill: rgba(144,0,255,0); stroke: rgba(144,0,255,1); stroke-width: 3; }
+	100% {
+		fill: rgba(144,0,255,1); stroke: rgba(144,0,255,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+
+.wrapper {background-color: #FFFFFF};
+
